@@ -5,10 +5,24 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
+
+static void
+display_usage(FILE *stream)
+{
+    fprintf(stream, "Usage: ./reverse_reverser <msg>\n");
+}
 
 int main(int argc, char **argv)
 {
-    printf("Hello World!!\n");
+    // check for message
+    if (argc < 2) {
+        fprintf(stderr, "message is not provided\n");
+        display_usage(stderr);
+        exit(EXIT_FAILURE);
+    }
+
+    printf("message: %s\n", argv[1]);
     return 0;
 }
 
