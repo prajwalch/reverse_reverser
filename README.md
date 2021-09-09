@@ -8,7 +8,7 @@ sh build.sh
 
 ## Usage 
 ```bash
-reverse_reverse [option] <msg>
+reverse_reverser [option] <msg>
 
 Options:
   -o            converts orginal to reverse
