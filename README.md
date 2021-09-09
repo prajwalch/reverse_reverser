@@ -1,5 +1,11 @@
 # Reverse the reverser
 
+## Building
+Run:
+```bash
+sh build.sh
+```
+
 ## Usage 
 ```bash
 reverse_reverse [option] <msg>
