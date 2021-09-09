@@ -1,7 +1,6 @@
 # Reverse the reverser
 
-## Usage
-**Usage:** 
+## Usage 
 **./reverse_reverse [option] <msg>**
 
 **Options:**
