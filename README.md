@@ -1,11 +1,13 @@
 # Reverse the reverser
 
 ## Usage 
-**./reverse_reverse [option] <msg>**
+```bash
+reverse_reverse [option] <msg>
 
-**Options:**
-**-o            converts orginal to reverse**
-**-r            converts reverse to orginal**
+Options:
+  -o            converts orginal to reverse
+  -r            converts reverse to orginal
+````
 
 ## Example
 Encrypt message:
